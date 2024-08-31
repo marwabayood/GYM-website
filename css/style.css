@@ -1,0 +1,344 @@
+
+.navbar li a { color: #000;font-size: 20px; } 
+.navbar-brand 
+{
+    background-image:  linear-gradient(to bottom right, #4d0026,#cc6699);
+    color: #FFF;
+    height: 100%;
+}
+/*****************************************************/
+
+/*****************************************************/
+.subheading
+{
+    letter-spacing: 1vw;
+    color: floralwhite;
+}
+
+/****************/
+
+ ul{list-style: none;}
+a{text-decoration: none;color: #666;}
+.clearfix{zoom: 1;}
+.clearfix:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:".";}
+.fl{float: left;}
+
+/* list css */
+
+
+.list{width: 90%;height: 260px;margin: 30px auto auto;overflow: hidden;background-color: #fff;}
+.list ul{padding: 0 20px;}
+.scroll-list li{overflow: hidden;}
+.testList li{height: 30px;line-height: 30px;overflow: hidden;}
+.post-user{width: 80px;}
+.post-user-avatar{width: 100%;height: 80px;line-height: 20px;display: inline-block;border-radius: 50%;margin-right: 6px;vertical-align: middle;}
+.post-info-right{margin-left: 30px;}
+.post-user-name{display: block;color: #666;font-size: 12px;margin-bottom: 5px;}
+.post-con{font-size: 12px;color: #999;line-height: 16px;word-wrap: break-word;}
+
+main
+{
+    background-image: url(../images/bg-water.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.water p 
+{
+    font-weight: 400;
+}
+.text-head
+{
+    font-size: 6vw;
+    font-weight: bold;
+}
+.service-area{
+    background-image:url("../images/service-bg.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;}
+.service
+{
+    background-color: rgba(153, 51, 0, 0.09);
+}
+.section-top,.title-service{color: floralwhite;}
+.serv-text{color: darkgray;}
+/*****************/
+
+.gallery:hover
+{
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
+    -ms-transform:translateY(-10px) scale(1.02); /* IE 9 */
+    -webkit-transform: translateY(-10px) scale(1.02); /* Safari 3-8 */
+    transform: translateY(-10px) scale(1.02);
+}
+
+
+/**********************************************************/
+.praticles
+{
+    background-image: url(../images/program-1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+/**********************************************************/
+.title
+{
+    letter-spacing: 1px;
+    color: darkgrey;
+    font-size: 12px;
+}
+.paragraph
+{
+    color: darkgrey;
+    line-height: inherit;
+    font-size: 14px;
+    font-family: Arial;
+}
+.ftco-animate
+{
+    background-image: linear-gradient(to bottom right, #4d0026,#cc6699);
+    font-size: 20px;
+}
+ul .ftco-animate a
+{
+    color: floralwhite;
+    text-decoration: none;
+}
+ul .ftco-animate:hover 
+{
+   background-color: floralwhite;
+}
+ul li:hover a
+{
+    color:  #4d0026;
+}
+/**************************Section Ask For Expert*******************************/
+.experts-text
+{
+    color: black;
+    line-height: 2;
+    letter-spacing: 1;
+    font-size: 18px;
+}
+.team-members-info
+{
+    position: absolute;
+    top: 40%;
+    background-color: black;
+    color: snow;
+    border: none;
+    
+}
+/*******************************/
+
+.title-Classes
+{
+    letter-spacing: 1vw;
+    font-family: Arial ;
+}
+.title-classes2
+{
+    font-family: Arial black;
+    font-size: 5vw;
+    font-weight: bold;
+}
+#Class1,#Class3,#Class2,#Class4
+{
+    cursor: pointer;
+}
+.btnClasses
+{
+    color: floralwhite;
+    font-family: Berlin Sans FB Demi;
+    font-size: 2vw;
+    background-image: linear-gradient(to bottom right, #4d0026,#cc6699,floralwhite);
+    width: 30%;
+    height: 10vh;
+    border: none;
+    cursor: pointer
+}
+.btnClasses:hover
+{
+    color:#4d0026 ;
+    background-image: linear-gradient(white,floralwhite)
+}
+/***********************************/
+.plan1
+{
+    background-color: whitesmoke;
+}
+.plan1 .price
+{
+    font-size: 25px;
+    color: #4d0026;
+}
+.plan1 .number
+{
+    font-size: 45px;
+    font-weight: bold;
+    color: #4d0026;
+}
+.except
+{
+    color: darkgray;
+}
+/*********************Sub menu************/
+.submenu
+{
+   
+}
+.nav-area
+{
+    position: absolute;
+    /*margin: auto;*/
+    left: 0;
+    right: 90%;
+    top: 50%;
+    z-index: 3;
+}
+.nav-area li 
+{
+    height: 15px;
+    margin: 15px 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.nav-area button 
+{
+    position: relative;
+    left: 0;
+    top: 0;
+    /*display: block;*/
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #4d0026;
+    border: 2px solid #fff;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}                   
+@media (max-width:652px)
+{
+    .nav-area
+    {
+        top: 0%;
+        width: 120px;
+    }
+    .nav-area ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
+                         /*******************Schedule************************/
+#tableSchedule
+{
+    /*display: none;*/
+}
+.at
+{
+    color: darkgray;
+    font-family: cursive;
+}
+.time
+{
+    font-family: Bahnschrift;
+    
+}
+.Trainer
+{
+    display: none;
+}
+/***********************Recent Blog*******************************/
+.blogs
+{
+    height: 90vh;
+}
+@media (max-width:767px)
+{
+    .blogs{height: 180vh;}
+    .divBlog1
+    {
+        position: relative;
+        background-color: whitesmoke;
+    }
+}
+.imgblog
+{
+    width: 100%;
+    height: 300px;
+}
+.divBlog1
+{
+    position: absolute; 
+    top: 80%;
+    left: 10%;
+    z-index: 2;
+    background-color: white;
+    
+}
+.date{color: darkgray;}
+.icon{color: darkslategray;}
+
+/**************Start Section Appiotment********************/
+
+.appointment-form input ,.appointment-form textarea
+{
+    border: none;
+    background-color: transparent;
+}
+.btn
+{
+    display: block;
+    background-color: transparent;
+    color: floralwhite;
+}
+.btn:hover
+{
+    background-color: floralwhite;
+    color: #4d0026
+}
+@media(max-width: 1199px)
+{
+    .imgApp{display: none;}
+}
+
+/************************Start footer ********************/
+footer{background-color: black}
+.titleFooter
+{
+    color: whitesmoke;
+    font-family: Arial Rounded MT Bold;
+}
+.paragFooter
+{
+    color: white;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.iconSoicalMedia{
+    padding: inherit;
+    text-align: center;
+    font-size: 30px;
+    color: ghostwhite;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(51, 51, 51);
+}
+.iconSoicalMedia a {color: ghostwhite}
+.media-body{color: snow;line-height: 2}
+.info{color: lightgray;font-size: 12px;cursor: pointer}
+.listService li a {color: snow;text-decoration: none;line-height: 1.5;letter-spacing: 2px;}
+.listService li a:hover{color: white;}
+.contact ul li {color: snow;line-height: 3;letter-spacing: 1.5px;}
+.myName{color: snow;letter-spacing: 2px;text-decoration: none}
+.myName:hover{text-decoration: none;color: azure;}
+
+
+
+
+
